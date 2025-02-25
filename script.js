@@ -1,8 +1,11 @@
 //your JS code here. If required.
+// Create the student object
 const student = {
-	name: "John",
-	
+  name: "John",
+  getKeys: function () {
+    return Object.keys(this);
+  }
 };
-function getKeys(obj){
-		return Object.keys(obj);
-	}
+
+// Do not change the code below this line
+// window.student = student;
