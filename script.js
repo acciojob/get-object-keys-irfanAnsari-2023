@@ -6,6 +6,8 @@ const student = {
     return Object.keys(this);
   }
 };
+console.log(student.getKeys());
+
 
 // Do not change the code below this line
 // window.student = student;
